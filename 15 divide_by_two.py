@@ -1,0 +1,7 @@
+# Divide Number by 2
+
+number = float(input("Enter a number: "))
+
+number /= 2
+
+print("Result after dividing by 2 =", number)
