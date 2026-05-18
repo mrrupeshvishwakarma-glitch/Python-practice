@@ -1,8 +1,7 @@
-# Find Remainder Without Using Modulus Operator
+# Find Half of a Number
 
-first_number = int(input("Enter first number: "))
-second_number = int(input("Enter second number: "))
+number = int(input("Enter a number: "))
 
-remainder = first_number - (first_number // second_number) * second_number
+half_number = number / 2
 
-print("Remainder =", remainder)
+print("Half number =", half_number)
